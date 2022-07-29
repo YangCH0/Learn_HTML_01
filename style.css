@@ -7,21 +7,17 @@ body{
 h1{
     color: white;
 }
-li a{
+a{
     color: white;
     text-decoration: none;
 }
-li a:hover{
+a:hover{
     color: black;
 }
-ul{
-    list-style: none;
-}
-li{
-    display: inline;
-    padding-left: 1.1em;
-    margin-left: 1em;
-    border-left: dotted 3px black;
+table{
+    width: 300px;
+    height: 100px;
+    text-align: center;
 }
 @keyframes gradient{
     0%{
